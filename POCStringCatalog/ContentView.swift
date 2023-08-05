@@ -8,15 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+   @State var count = 0
+
    var body: some View {
       VStack {
-         Text("alertview_poi_title_accident")
-         Text("alertview_poi_title_danger_zone_avg_speed")
+         Text("Counter value: \(count) errors")
+
+         Button("Increment") {
+            count += 1
+         }
+
+         Button("Reset") {
+            count = 0
+         }
+
       }
       .padding()
    }
 }
 
-#Preview {
+#Preview("fr") {
    ContentView()
+      .environment(\.locale, .init(identifier: "fr"))
+
+}
+
+#Preview("es") {
+   ContentView()
+      .environment(\.locale, .init(identifier: "es"))
+
 }
