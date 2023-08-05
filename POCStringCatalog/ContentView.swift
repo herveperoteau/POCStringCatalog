@@ -9,19 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
    @State var count = 0
-
+   
    var body: some View {
       VStack {
+         
+         Text(verbatim:
+               String(format: String(
+                  localized: "map_package_downloader_stop_downloading"), "\(count)"
+               )
+         )
+         
+         Text("map_package_downloader_stop_downloading")
+         
+         
          Text("Counter value: \(count) errors")
-
+         
          Button("Increment") {
             count += 1
          }
-
+         
          Button("Reset") {
             count = 0
          }
-
+         
       }
       .padding()
    }
@@ -30,11 +40,11 @@ struct ContentView: View {
 #Preview("fr") {
    ContentView()
       .environment(\.locale, .init(identifier: "fr"))
-
+   
 }
 
 #Preview("es") {
    ContentView()
       .environment(\.locale, .init(identifier: "es"))
-
+   
 }
