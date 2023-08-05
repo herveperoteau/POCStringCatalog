@@ -1,0 +1,11 @@
+NSLocationAlwaysAndWhenInUseUsageDescription = "Coyote necessita l’accesso alla tua posizione per funzionare (Posizione precisa su: SI)";
+NSLocationWhenInUseUsageDescription = "Coyote necessita l’accesso alla tua posizione per funzionare (Posizione precisa su: SI)";
+NSLocationAlwaysUsageDescription = "Coyote necessita l’accesso alla tua posizione per funzionare (Posizione precisa su: SI)";
+NSContactsUsageDescription = "Creating a route to your contacts";
+NSPhotoLibraryUsageDescription = "Customize favorite picture";
+NSBluetoothAlwaysUsageDescription = "Coyote richiede la tua approvazione per utilizzare il Bluetooth";
+NSMotionUsageDescription = "Coyote requires your approval to detect car motion";
+NSMicrophoneUsageDescription = "Per il corretto funzionamento del riconoscimento vocale, è necessario autorizzare l'accesso al microfono";
+NSCameraUsageDescription = "Coyote requires your approval to use camera";
+NSSpeechRecognitionUsageDescription = "Per poter confermare gli avvisi vocali, è necessario autorizzare l'accesso al riconoscimento vocale";
+NSUserTrackingUsageDescription = "Aiutaci a offrire una migliore esperienza con APP COYOTE e ottimizzare le attività di marketing.";

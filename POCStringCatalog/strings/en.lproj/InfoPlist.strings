@@ -1,0 +1,11 @@
+NSLocationAlwaysAndWhenInUseUsageDescription = "Coyote requires your iPhone location to work (Precise set to : On)";
+NSLocationWhenInUseUsageDescription = "Coyote requires your iPhone location to work (Precise set to : On)";
+NSLocationAlwaysUsageDescription = "Coyote requires your iPhone location to work (Precise set to : On)";
+NSContactsUsageDescription = "Creating a route to your contacts";
+NSPhotoLibraryUsageDescription = "Customize favorite picture";
+NSBluetoothAlwaysUsageDescription = "Coyote requires your approval to use Bluetooth";
+NSMotionUsageDescription = "Coyote requires your approval to detect car motion";
+NSMicrophoneUsageDescription = "For the proper functioning of speech recognition, you must allow access to the microphone";
+NSCameraUsageDescription = "Coyote requires your approval to use camera";
+NSSpeechRecognitionUsageDescription = "To be able to confirm alerts by voice, you must allow access to speech recognition";
+NSUserTrackingUsageDescription = "It helps us to offer you a better experience within the app and to optimize our marketing activities.";
