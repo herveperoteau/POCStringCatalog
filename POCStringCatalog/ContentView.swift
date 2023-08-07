@@ -11,6 +11,9 @@ struct ContentView: View {
    @State var count = 0
    
    var body: some View {
+       
+       let _ = print(String(localized: "Counter value: \(count) errors"))
+       
       VStack {
          
          Text(verbatim:
