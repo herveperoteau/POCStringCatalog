@@ -7,28 +7,50 @@
 
 import SwiftUI
 
+public extension String {
+    
+    func localized(locale: Locale) -> String {
+        let resource = LocalizedStringResource(LocalizationValue(self), locale: locale)
+        return String(localized: resource)
+//        String(LocalizationValue(self, locale: locale), locale: locale)
+//        String(localized: LocalizationValue(self), locale: locale)
+    }
+}
+
 struct ContentView: View {
    @State var count = 0
-   
+    
    var body: some View {
        
        let _ = print(String(localized: "Counter value: \(count) errors"))
        
+       let _ = print(String(localized: "my_key_for_param", defaultValue: "My default"))
+       
       VStack {
-         
-         Text(verbatim:
-               String(format: String(
-                  localized: "map_package_downloader_stop_downloading"), "\(count)"
-               )
-         )
-         
-         Text("map_package_downloader_stop_downloading")
-         
-         // Take care of .environment(\.locale
-         Text("Counter value: \(count) errors")
+          
+//          Text(String(format: "my_key_for_param".localized(locale: Locale(identifier: "fr")), count))
 
-         // BUT Doesn't take care of .environment(\.locale
-         Text(String(localized: "Counter value: \(count) errors"))
+          Text("my_key_for_param \(count)")
+
+          
+//          Text(
+//          String(localized: "settings_item_map_display_traffic_flow", defaultValue: "My default")
+//          )
+          
+//         Text(
+//               String(format: String(
+//                  localized: "routing_error"), "\(count)"
+//               )
+//         )
+//
+//          
+//         Text("map_package_downloader_stop_downloading")
+//         
+//         // Take care of .environment(\.locale
+//         Text("Counter value: \(count) errors")
+//
+//         // BUT Doesn't take care of .environment(\.locale
+//         Text(String(localized: "Counter value: \(count) errors"))
           
          Button("Increment") {
             count += 1

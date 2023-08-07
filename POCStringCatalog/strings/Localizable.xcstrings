@@ -13065,6 +13065,80 @@
         }
       }
     },
+    "my_key_for_param" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "My default"
+          }
+        }
+      }
+    },
+    "my_key_for_param %ld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%ld error"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%ld errors"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%ld erreurs"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%ld erreurs"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "my_key_for_param %lld" : {
+      "localizations" : {
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld erreur"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld erreurs"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "my_offers_error_occurred" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -13201,6 +13275,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Er is een technisch probleem opgetreden. Probeer het later opnieuw."
+          }
+        }
+      }
+    },
+    "my_simple_key" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld error"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%ld erreurs"
           }
         }
       }
