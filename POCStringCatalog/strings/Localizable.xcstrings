@@ -1472,7 +1472,7 @@
       }
     },
     "alertview_poi_title_accident" : {
-      "extractionState" : "stale",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1717,7 +1717,7 @@
       }
     },
     "alertview_poi_title_danger_zone_avg_speed" : {
-      "extractionState" : "stale",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -5407,6 +5407,12 @@
                   "state" : "new",
                   "value" : "Counter value: %lld errors"
                 }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Counter value: %lld error"
+                }
               }
             }
           }
@@ -5425,6 +5431,12 @@
                   "state" : "translated",
                   "value" : "Valor de contador: %lld errores"
                 }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Valor de contador: %lld error"
+                }
               }
             }
           }
@@ -5442,6 +5454,12 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Valeur du compteur: %lld erreurs"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Valeur du compteur: %lld erreur"
                 }
               }
             }

@@ -21,9 +21,12 @@ struct ContentView: View {
          
          Text("map_package_downloader_stop_downloading")
          
-         
+         // Take care of .environment(\.locale
          Text("Counter value: \(count) errors")
-         
+
+         // BUT Doesn't take care of .environment(\.locale
+         Text(String(localized: "Counter value: \(count) errors"))
+          
          Button("Increment") {
             count += 1
          }
