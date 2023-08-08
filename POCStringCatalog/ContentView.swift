@@ -32,7 +32,8 @@ struct ContentView: View {
 
           Text("my_key_for_param \(count)")
 
-          
+          Text("key_alert_on_road \(count)")
+
 //          Text(
 //          String(localized: "settings_item_map_display_traffic_flow", defaultValue: "My default")
 //          )

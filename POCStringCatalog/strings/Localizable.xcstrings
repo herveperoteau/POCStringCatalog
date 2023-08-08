@@ -9145,6 +9145,28 @@
         }
       }
     },
+    "key_alert_on_road %lld" : {
+      "localizations" : {
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "IL y a %lld alerte sur ta route"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "IL y a %lld alertes sur ta route"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "keychain_error" : {
       "extractionState" : "manual",
       "localizations" : {
